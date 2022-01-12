@@ -122,9 +122,8 @@ box-shadow: 0px 0px 10px 0px #f3d4d4;
     font-size: 50px;
 }
 .team-img{
-    width: 200px;
-    height: 200px;
-    margin-left: 200px;
+    width: 150px;
+    height: 150px;
     margin-right: 0%;
 }
 .p2{
@@ -145,8 +144,8 @@ tr , th{
     font-family: 'Clarendon Bik BT';
 }
 .form-control{
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 60px;
     border: 2px solid white;
     background-color: white;
 }
@@ -154,9 +153,12 @@ tr , th{
     background-color: #F3D250;
     color: rgb(53, 0, 139);
     font-weight: 800;
-    font-size: 30px;
+    font-size: 20px;
     font-family: 'Clarendon Bik BT';
     border: 2px solid #F3D250;
+    width: 70px;
+    height: 80px;
+    margin-top: -25px;
 }
 .sbt{
     text-align: left;
@@ -166,6 +168,124 @@ tr , th{
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+@media only screen and (max-width: 420px){
+}
+@media only screen and (max-width: 600px){
+    /* navbar */
+    .navbar-brand{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .nav-logo-img{
+        height: 40px;
+        width: 50px;
+        margin-top: 0%;
+    }
+    .brand-1{
+        font-size: 18px;
+        margin-top: 10px;
+        margin-left: 0%;
+        padding: 0%;
+        font-weight: 800;
+        font-family: 'Clarendon Bik BT';
+        color: rgb(53, 0, 139);    
+    }
+    /* content */
+    .p-1{
+        text-align: center;
+        padding: 10px;
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    /* what's here */
+    .row-i{
+        display: block;
+        /* margin-left: 10px; */
+        margin-right: 10px;
+    }   
+    .card{
+        width: 15rem;
+    }
+    .what-h{
+        text-align: left;
+        padding:0px;
+        margin-left: 0px;
+        font-size: 30px;
+    }
+    /* team-codes */
+    .team{
+        padding: 10px;
+    }
+    .team-table{
+        padding: 10px;
+    }
+    .team-h{
+        text-align:center;
+        font-size: 30px;
+    }
+    .team-img{
+        margin-left: 0px;
+    }
+    .sbt{
+     margin-top: 20px;
+     text-align: center;
+    }
+    .no{
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .req-h{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .form-control{
+        text-align: center;
+        width: 70px;
+        height: 70px;
+    }
+    /* footer */
+    .footer-header{
+        margin-top: 30px;
+        font-weight: 800;
+        color: rgb(53, 0, 139);
+    }
+    .email-img{
+        margin-top: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    .faq{
+        margin-top: 30px;
+        width: 50px;
+        height: 50px;
+    }
+    .faq-p , .m-link{
+        font-size: 10px;
+        text-align: center;
+    }
+    .footer-div{
+        background-color: #b6b4b4;
+    }
+    .email-div{
+        background-color: white;
+        border: 1px solid white;
+    }
+
+}
+.myimg{
+    height:100px;
+    width:100px;
+}
+.inner-cnt{
+    background-color: #F3D250;
+    position: relative;
+    display: none;
+}
+.what{
+    display:inline-block
 }
 @media only screen and (max-width: 420px){
 }
@@ -240,5 +360,59 @@ tr , th{
     width: 70px;
     height: 70px;
 }
-
+.what-1{
+    padding:0px;
+}
+.myimg{
+    position:relative;
+    right:5px;
+    height:60px;
+    width:60px;
+}
+.inner-row-1{
+    text-align:center;
+    background-color: white;
+    width:500px;
+    margin-top:5px;
+    width:90%;
+    border-radius: 5px;
+}
+.second-row{
+    position: relative;
+    left:30px;
+    padding-bottom:5px;
+}
+/* .row-2{
+    position:relative;
+    left:100px;
+} */
+.img-p{
+    color:rgb(53, 0, 139);
+    font-size:10px;
+    text-align:center;
+    font-weight:600;
+}
+.row-1{
+    position:relative;
+    left:2px;
+}
+.row-2{
+    position:relative;
+    left:4px;
+}
+.row-3{
+    position: relative;
+    left:6px;
+}
+.row-4{
+    position: relative;
+    left:8px;
+}
+.inner-cnt{
+    position: relative;
+    display: inline-block;
+}
+.what{
+    display:none;
+}
 }
