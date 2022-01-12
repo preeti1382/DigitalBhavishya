@@ -98,6 +98,68 @@ box-shadow: 0px 0px 10px 0px #000000;
     box-shadow: inset 5px #b6b4b4;
     border-radius: 8px;
     margin-top: 50px;
+    -webkit-box-shadow: 0px 0px 5px 0px #f3d4d4;
+box-shadow: 0px 0px 10px 0px #f3d4d4;
+}
+.team-table{
+    background-color: #F78888;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #F78888;
+    border-radius: 8px;
+}
+.team-h{
+    text-align:left;
+    font-weight: 800;
+    font-family: 'Clarendon Bik BT';
+    color: rgb(53, 0, 139);
+    padding-top: 0%;
+    margin-left: 0px;
+    margin-right: 120px;
+    text-align: right;
+    font-size: 50px;
+}
+.team-img{
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+    margin-right: 0%;
+}
+.p2{
+    text-align: justify;
+    color: #000000;
+    font-weight: 600;
+}
+tr:nth-child(even) {
+    background-color: #f3d4d4;
+}
+tr , th{
+    color: rgb(53, 0, 139);
+}
+.req-h{
+    text-align: right;
+    font-weight: 800;
+    color: rgb(53, 0, 139);
+    font-family: 'Clarendon Bik BT';
+}
+.form-control{
+    width: 70px;
+    height: 70px;
+    border: 2px solid white;
+    background-color: white;
+}
+.submit-btn{
+    background-color: #F3D250;
+    color: rgb(53, 0, 139);
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Clarendon Bik BT';
+    border: 2px solid #F3D250;
+}
+.sbt{
+    text-align: left;
 }
 @media only screen and (max-width: 420px){
 }
@@ -138,5 +200,22 @@ box-shadow: 0px 0px 10px 0px #000000;
         margin-left: 0px;
         font-size: 30px;
     }
-    
+    /* team-codes */
+.team{
+    padding: 10px;
+}
+.team-table{
+    padding: 10px;
+}
+.team-h{
+    text-align:center;
+    margin-right: 0px;
+    font-size: 30px;
+}
+.team-img{
+    margin-left: 0px;
+}
+.sbt{
+ margin-top: 20px;
+}   
 }
